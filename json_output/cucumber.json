@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18576002810,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57238518,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14179484981,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs into app",
+            "match": {
+              "location": "HomePageSteps.user_enters_credentials_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7310353,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the home page title",
+            "match": {
+              "location": "HomePageSteps.validate_the_home_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/hns/IdeaProjects/FreeCrmBddFramework/src/main/java/com/qa/features/freecrm.feature"
+  }
+]
